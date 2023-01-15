@@ -11,7 +11,7 @@
 /*------------------------Header----------------------------*/
 .header-bg{
     background-color: #FF900E1A;
-    padding: 50px 240px;
+    padding: 50px 12.5%;
 }
 .navigation-style{
     display: grid;
@@ -19,7 +19,7 @@
 }
 .main-style{
     text-align: center;
-    padding: 102px 389px 50px 389px;
+    padding: 102px 5% 50px 5%;
 }
 .main-style li:nth-child(1){
     font-size: 64px;
@@ -42,7 +42,7 @@
 }
 /*------------------------section 1------------------*/
 .section-1-style{
-    padding: 85px 301px 130px;
+    padding: 85px 10% 130px;
     display: flex;
     gap: 73px;
     align-items: center;
@@ -61,7 +61,7 @@
 }
 /*--------------------------Section 2-------------------*/
 .section-2-style{
-    margin: 0 240px 0;
+    margin: 0 12.5% 0;
     display: flex;
     gap: 54px;
 }
@@ -85,7 +85,7 @@
 }
 .section-2-right img{
     position: absolute;
-    right: 240px;
+    right: 8%;
     top:2245px;
     z-index: -1;
     /*margin:0 0 0  92px;*/
@@ -99,11 +99,11 @@
     border-radius: 8px;
     position: absolute;
     top:3104px;
-    right:698px;
+    right:36.35%;
 }
 /*--------------------------section-3----------------*/
 .section-3-style{
-    margin: 130px 240px;
+    margin: 130px 12.5%;
 }
 .section-3-style h1{
     font-size: 45px;
@@ -123,12 +123,11 @@
 }
 .facts:hover{
     background-color: #FF900E;
-    width: ;
     transform: rotate(25deg);
 }
 /*---------------------------section 4-----------------*/
 .section-4-style{
-    margin: 130px 240px;
+    margin: 130px 12.5%;
     text-align: center;
 }
 .section-4-style h1{
@@ -142,7 +141,7 @@
 }
 /*-------------------------New Section----------------*/
 .new-section-style{
-    margin: 0 240px 100px;
+    margin: 0 12.5% 100px;
 }
 .new-section-style h1{
     font-size: 45px;
@@ -166,7 +165,7 @@
 }
 /*------------------------Footer----------------------*/
 .footer-style{
-    margin: 0 240px 216px;
+    margin: 0 12.5% 216px;
     background-color:#FFF4E7;
     padding: 38px 0;
     text-align: center;
