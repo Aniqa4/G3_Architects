@@ -66,8 +66,7 @@
     gap: 54px;
 }
 .section-2-left{
-    width: 36.6em;
-    /*margin: 77px 0 0;*/
+    width: 30.5%;
 }
 .section-2-left p:first-child{
     font-size: 45px;
@@ -136,7 +135,7 @@
 }
 .sponsors{
     display: flex;
-    gap:155px;
+    gap:8%;
     padding-top: 50px;
 }
 /*-------------------------New Section----------------*/
