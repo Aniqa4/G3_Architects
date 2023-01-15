@@ -5,32 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 <!--------------------------Header------------------->
        <!-------------------Navigation--------->
-<header>
-    <nav class="navigation-style">
-        <ul class="list-style">
-            <li><b>G3 Architects</b></li>
+<header class="header-bg">
+    <nav>
+        <ul class="list-style navigation-style">
+            <li><h1><b>G3 Architects</b></h1></li>
             <li>Home</li>
             <li>About</li>
             <li>Contact Us</li>
             <li>Login</li>
         </ul>
     </nav>
-<!--------------------------Main------------------------>
-    <main class="main-style">
-        <ul class="list-style">
-            <li><b>Brand New Group of Architects</b></li>
-            <li>
-                There are many variations of passages of Lorem Ipsum available, 
-                but the majority have suffered alteration in some form, by injected humour,
-                or randomised words which don't look even
-            </li>
-            <li><button class="button-style">Explore More</button></li>
-            <li><img src="images/banner.png" alt="banner"></li>
-        </ul>
+        <!-----------------Main-------------->
+    <main>
+        <div>
+            <ul class="list-style main-style">
+                <li><b>Brand New Group of Architects</b></li>
+                <li>
+                    There are many variations of passages of Lorem Ipsum available, 
+                    but the majority have suffered alteration in some form, by injected humour,
+                    or randomised words which don't look even
+                </li>
+                <li><button class="button-style">Explore More</button></li>
+            </ul>
+        </div>
+        <div>
+            <img src="images/banner.png" alt="banner">
+        </div>   
+        
     </main>
 </header>
 <!------------------------Section 1--------------------->
@@ -43,7 +52,7 @@
     </div>
     <div class="section-1-right">
         <ul class="list-style">
-            <li>Quick list of Our Features</li>
+            <li><span style="color:#727272">Quick list</span> <b>of Our</b> <span style="color: #FF900E;">Features</span></li>
             <li>
                 There are many variations of passages of Lorem Ipsum available, 
                 but the majority have suffered alteration in some form, by injected humour, 
@@ -95,10 +104,9 @@
         </div>
     </div>
     <div class="section-2-right">
-        <div>
-            <p><b>10+Year</b></p>
-            <p>Experience</p>
-        </div>
+        <img src="images/architect.png" alt="architects">
+        <button class="button-10years"><b style="color: aliceblue;">10+Year</b><br>
+        <span style="font-size: 24px;color:aliceblue">Experience</span></button>
     </div>
 </section>
 <!-------------------------Section 3---------------------->
@@ -106,28 +114,28 @@
     <h1><b>Some Facts</b></h1>
     <p>There are many variations of passages of Lorem Ipsum available.</p>
     <div>
-        <div>
+        <div class="facts">
             <ul class="list-style">
                 <li><img src="images/icons/ribon.png"></li>
                 <li>54</li>
                 <li>Award Winnings</li>
             </ul>
         </div>
-        <div>
+        <div class="facts">
             <ul class="list-style">
                 <li><img src="images/icons/projects.png"></li>
                 <li>1458</li>
                 <li>Project Finished </li>
             </ul>
         </div>
-        <div>
+        <div class="facts">
             <ul class="list-style">
                 <li><img src="images/icons/customers.png" alt="customers"></li>
                 <li>590</li>
                 <li>Clients Worked</li>
             </ul>
         </div>
-        <div>
+        <div class="facts">
             <ul class="list-style">
                 <li><img src="images/icons/email.png" alt="email"></li>
                 <li>22578</li>
@@ -140,7 +148,7 @@
 <section class="section-4-style">
     <h1>Our Sponsors</h1>
     <p>There are many variations of passages of Lorem Ipsum available.</p>
-    <div>
+    <div class="sponsors">
         <div><img src="images/sponsors/spotify.png"></div>
         <div><img src="images/sponsors/google.png" alt="google"></div>
         <div><img src="images/sponsors/amazon.png" alt="amazon"></div>
