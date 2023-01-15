@@ -63,10 +63,10 @@
 .section-2-style{
     margin: 0 12.5% 0;
     display: flex;
-    gap: 54px;
+    gap: 2.8%;
 }
 .section-2-left{
-    width: 30.5%;
+    width: 35.5%;
 }
 .section-2-left p:first-child{
     font-size: 45px;
@@ -86,19 +86,19 @@
     position: absolute;
     right: 8%;
     top:2245px;
-    z-index: -1;
-    /*margin:0 0 0  92px;*/
+    z-index: -2;
 }
 .button-10years{
     background-color: #FF900E;
-    font-size: 65px;
-    padding: 45px 45px;
+    font-size: 45px;
+    padding: 35px 35px;
     text-align: center;
     border: 0;
     border-radius: 8px;
     position: absolute;
     top:3104px;
     right:36.35%;
+    z-index: -1;
 }
 /*--------------------------section-3----------------*/
 .section-3-style{
@@ -202,6 +202,9 @@
     .section-1-style div:first-child{
         display: block;
     }
+    .section-1-left img:nth-child(n){
+        width: 100%;
+    }
 /*---------------------------Section 2-----------------*/
     .section-2-style{
         margin: 20px;
@@ -261,7 +264,10 @@
 }
 .info-field input{
     margin: 10px 0;
+    padding: 15px;
+    font-size: 16px;
 }
+
 /*-------------------------footer--------------------*/
    .footer-style{
     margin: 0;
